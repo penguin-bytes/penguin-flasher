@@ -6,6 +6,23 @@ This is Penguin Flasher. A simple script I made to make the process of making bo
 * You must have `dd` installed. if not, install the `coreutils` package from your distros package manager e.g., apt, pacman, rpm, etc.
 * You must have a pre-created directory for your iso as this script doesn't make it. I would make one then move your isos there. As this script will keep using the same folder you tell it to use the first time. 
 
+## Useage/Insallation
+
+First you need to clone this repo, it can be done by copying this command
+
+`git clone https://github.com/penguin-bytes/penguin-flasher`
+
+you need to cd into the folder
+`cd penguin-flasher`
+then make the file excuatble
+`chmod +x PenguinFlasher.sh`
+then run it as sudo
+`sudo PenguinFlasher.sh`
+
+
+> [!WARNING]
+> Don't run this as root and only use sudo. It may break the script 
+
 
 
 ## How it works:
