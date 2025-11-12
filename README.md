@@ -2,6 +2,12 @@
 
 This is Penguin Flasher. A simple script I made to make the process of making bootable Linux USBs. I made it as I am usually flashing drives a lot to make a variety of servers and test different distros. This quickly became a pain, so hence this script exists. I hope you can find some use for it. Feel free to contribute, give suggestions to improve, or tell me I am an idiot who is doing it very wrong. I accept all feedback given it's presented without malice. 
 
+## Requirements 
+* You must have `dd` installed. if not, install the `coreutils` package from your distros package manager e.g., apt, pacman, rpm, etc.
+* You must have a pre-created directory for your iso as this script doesn't make it. I would make one then move your isos there. As this script will keep using the same folder you tell it to use the first time. 
+
+
+
 ## How it works:
 
 * Prompts for location of ISO folder
